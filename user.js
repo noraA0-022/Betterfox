@@ -51,6 +51,7 @@ user_pref("network.http.max-connections", 1800);
 user_pref("network.http.max-persistent-connections-per-server", 10);
 user_pref("network.http.max-urgent-start-excessive-connections-per-host", 5);
 user_pref("network.http.pacing.requests.enabled", false);
+user_pref("network.http.http3.enable", false); //This change makes youtube load normal/instantly. When in default state/enabled, youtube usually buffers a lot for a long time. (NOTE: I have ublockorigin adblocker)
 user_pref("network.dnsCacheEntries", 1000);
 user_pref("network.dnsCacheExpiration", 86400);
 user_pref("network.dns.max_high_priority_threads", 8);
